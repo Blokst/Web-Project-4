@@ -25,7 +25,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+span a{
+    color: #f5f3f0;
+}
 /* Navigation bar */
 .nav-bar {
     display: flex;
@@ -36,7 +38,7 @@ body {
     padding: 16px;
     flex-wrap: wrap;
 }
-
+/* nav changes the display remooves the underline and adds a white hollow*/
 .nav-bar a {
     color: white;
     text-decoration: none;
@@ -54,13 +56,13 @@ body {
 /* subheading style*/
 .heading {
     font-size: 36px;
-    font-family:'Courier New', Courier, monospace serif;
+    font-family: "Georgia",  serif
 }
 
 
 .subheading {
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:  'Times New Roman' serif;
 }
 /* image automatic size*/
 img {
